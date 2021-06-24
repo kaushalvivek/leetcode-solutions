@@ -55,7 +55,6 @@ public:
     
     bool isOkayToVisit(int i, int j, vector<vector<int>> &grid, vector<vector<int>> &visited)
     {
-        bool isOkay = true;
         int m = grid.size();
         int n = grid[0].size();
         
