@@ -1,3 +1,7 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
 class Solution {
     bool isValidRow(vector<vector<char>>& board, int row) {
         bool exists[10] = {false};
